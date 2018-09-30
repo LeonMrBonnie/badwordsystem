@@ -9,7 +9,7 @@ Dynamisches Badword System für SA:MP geschrieben von LeonMrBonnie
 
 # Vorraussetzungen
 - MySQL Server
-- SA:MP Server 0.37R2
+- SA:MP Server 0.3.7R2
 
 # Genutze Includes
 - MySQL (R41-4)
