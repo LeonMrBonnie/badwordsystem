@@ -46,7 +46,7 @@ new badwords;
 public OnFilterScriptInit()
 {
 	print("\n-----------------------------------");
-	print(" Badword System von LeonMrBonnie");
+	print(" Badword System von LeonMrBonnie geladen");
 	print("-----------------------------------\n");
 
 	DatabaseConnect();
@@ -82,7 +82,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 					case 0: //Badwords auflisten
 					{
 						if(badwords == 0) return SendClientMessage(playerid, COLOR_LIGHTBLUE, "BADWORDS: Es sind keine Badwords vorhanden.");
-						new dialogstring[32 + (64 * MAX_BADWORDS)],string[64];
+						new dialogstring[2048],string[64];
 						dialogstring = "Badword\tHinzugefügt von\n";
 						for(new i; i<badwords+1; i++)
 						{
@@ -207,7 +207,7 @@ CMD:listbadwords(playerid)
 	if(!IsPlayerAdmin(playerid)) return SendClientMessage(playerid, COLOR_LIGHTBLUE, "Du bist kein Admin.");
 	if(badwords == 0) return SendClientMessage(playerid, COLOR_LIGHTBLUE, "BADWORDS: Es sind keine Badwords vorhanden.");
 
-	new dialogstring[32 + (64 * MAX_BADWORDS)],string[64];
+	new dialogstring[2048],string[64];
 	dialogstring = "Badword\tHinzugefügt von\n";
 
 	for(new i; i<badwords+1; i++)
