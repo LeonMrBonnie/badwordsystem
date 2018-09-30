@@ -2,10 +2,10 @@
 Dynamisches Badword System für SA:MP geschrieben von LeonMrBonnie
 
 # Befehle
-/badwords - Zeigt die Badwordverwaltung an
-/listbadwords - Zeigt alle erstellen Badwords an
-/addbadword - Erstellt ein Badword
-/removebadword - Entfernt ein bestehendes Badword
+- /badwords - Zeigt die Badwordverwaltung an
+- /listbadwords - Zeigt alle erstellen Badwords an
+- /addbadword - Erstellt ein Badword
+- /removebadword - Entfernt ein bestehendes Badword
 
 # Vorraussetzungen
 - MySQL Server
