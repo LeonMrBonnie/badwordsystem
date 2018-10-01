@@ -1,4 +1,4 @@
-//Badword System von LeonMrBonnie
+﻿//Badword System von LeonMrBonnie
 //Erstellt am 30.9.2018 für das Breadfish Forum.
 
 #define FILTERSCRIPT
