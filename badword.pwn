@@ -319,3 +319,8 @@ GetName(playerid)
 	GetPlayerName(playerid, PlayerName, MAX_PLAYER_NAME);
 	return PlayerName;
 }
+
+#if !defined isnull
+    #define isnull(%1) \
+                ((!(%1[0])) || (((%1[0]) == '\1') && (!(%1[1]))))
+#endif
